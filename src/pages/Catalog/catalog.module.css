@@ -1,0 +1,23 @@
+.afisha {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 48px;
+}
+
+.afisha__article {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  color: #141c24;
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.afisha__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+}

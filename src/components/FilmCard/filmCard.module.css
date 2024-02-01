@@ -1,0 +1,59 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 300px;
+  height: 500px;
+}
+
+.card__image {
+  width: 300px;
+  height: 300px;
+}
+
+.card__image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.card__information {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card__title {
+  color: #141c24;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.card__subtitle {
+  color: #637083;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.rating__kinopoisk {
+  color: #637083;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.card__information button {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 16px;
+  background: #9534d2;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
